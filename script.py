@@ -7,7 +7,7 @@ import dotenv
 
 dotenv.load_dotenv()
 
-api_key = os.environ("API_KEY")
+api_key = os.environ["API_KEY"]
 
 def main():
     fromcur = input("From currency : ")
